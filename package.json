@@ -1,0 +1,57 @@
+{
+  "name": "honolulu_vscode_theme",
+  "displayName": "Honolulu Theme",
+  "description": "descritpion",
+  "version": "0.4.1",
+  "author": "Jean-Baptiste THERY <jb.thery@flameapp.studio>",
+  "publisher": "mcagampan",
+  "scripts": {
+    "init:project": "npm i && npx husky install"
+  },
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flame-app-studio/honolulu_vscode_theme"
+  },
+  "bugs": {
+    "url": "https://github.com/flame-app-studio/honolulu_vscode_theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#0e0e0e",
+    "theme": "dark"
+  },
+  "icon": "logo.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "dark theme",
+    "horizon",
+    "horizon theme",
+    "dark horizon",
+    "dark horizon theme",
+    "black",
+    "black theme",
+    "red",
+    "red theme",
+    "high contrast",
+    "elegant",
+    "elegant theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Honolulu Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/honolulu_vscode_theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "commitlint": "^11.0.0",
+    "commitlint-config-gitmoji": "^2.2.5"
+  }
+}
