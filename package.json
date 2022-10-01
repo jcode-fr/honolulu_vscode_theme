@@ -16,9 +16,11 @@
   ],
   "scripts": {
     "init:project": "npm i && npx husky install",
-    "build:extention": "vsce package"
+    "build:extention": "vsce package",
+    "login:vsce": "vsce login flameappstudio",
+    "publish:extention": "vsce publish"
   },
-  "homepage": "todo",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=flameappstudio.honolulu-vscode-theme",
   "repository": {
     "type": "git",
     "url": "https://github.com/flame-app-studio/honolulu_vscode_theme"
@@ -26,8 +28,8 @@
   "bugs": {
     "url": "https://github.com/flame-app-studio/honolulu_vscode_theme/issues"
   },
-  "publisher": "Flame App Studio",
-  "author": "Jean-Baptiste THERY <jb.thery@flameapp.studio>",
+  "publisher": "flameappstudio",
+  "author": "Jean-Baptiste THERY <jb.thery@flameapp.studio> ",
   "license": "MIT",
   "contributors": [
     {
@@ -45,7 +47,7 @@
       {
         "label": "Honolulu Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/honolulu_vscode_theme.json"
+        "path": "./themes/honolulu-vscode-theme.json"
       }
     ]
   },
