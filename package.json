@@ -48,6 +48,11 @@
         "label": "Honolulu Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/honolulu-vscode-theme.json"
+      },
+      {
+        "label": "Honolulu Theme Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/honolulu-vscode-theme-darker.json"
       }
     ]
   },
