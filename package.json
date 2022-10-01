@@ -1,16 +1,26 @@
 {
-  "name": "honolulu_vscode_theme",
+  "name": "honolulu-vscode-theme",
   "displayName": "Honolulu Theme",
-  "description": "descritpion",
-  "version": "0.4.1",
-  "author": "Jean-Baptiste THERY <jb.thery@flameapp.studio>",
-  "publisher": "mcagampan",
+  "version": "0.1.0",
+  "description": "Sunset in honolulu theme for VS Code",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode theme",
+    "theme",
+    "dark theme",
+    "dark",
+    "honolulu theme",
+    "honolulu"
+  ],
   "scripts": {
-    "init:project": "npm i && npx husky install"
+    "init:project": "npm i && npx husky install",
+    "build:extention": "vsce package",
+    "login:vsce": "vsce login flameappstudio",
+    "publish:extention": "vsce publish"
   },
-  "engines": {
-    "vscode": "^1.49.0"
-  },
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=flameappstudio.honolulu-vscode-theme",
   "repository": {
     "type": "git",
     "url": "https://github.com/flame-app-studio/honolulu_vscode_theme"
@@ -18,35 +28,26 @@
   "bugs": {
     "url": "https://github.com/flame-app-studio/honolulu_vscode_theme/issues"
   },
-  "galleryBanner": {
-    "color": "#0e0e0e",
-    "theme": "dark"
-  },
-  "icon": "logo.png",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "dark",
-    "dark theme",
-    "horizon",
-    "horizon theme",
-    "dark horizon",
-    "dark horizon theme",
-    "black",
-    "black theme",
-    "red",
-    "red theme",
-    "high contrast",
-    "elegant",
-    "elegant theme"
+  "publisher": "flameappstudio",
+  "author": "Jean-Baptiste THERY <jb.thery@flameapp.studio> ",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Jean-Baptiste Thery",
+      "email": "jb.thery@flameapp.fr",
+      "url": "https://flameapp.studio"
+    },
+    {
+      "name": "Sandra Sain-Julien",
+      "email": "sandra.saint.julien@gmail.com"
+    }
   ],
   "contributes": {
     "themes": [
       {
         "label": "Honolulu Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/honolulu_vscode_theme.json"
+        "path": "./themes/honolulu-vscode-theme.json"
       }
     ]
   },
@@ -55,5 +56,13 @@
     "@commitlint/config-conventional": "^17.1.0",
     "commitlint-config-gitmoji": "^2.2.5",
     "husky": "^8.0.1"
+  },
+  "icon": "honolulu-vscode-theme-logo.png",
+  "galleryBanner": {
+    "color": "#1d1c25",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
   }
 }
