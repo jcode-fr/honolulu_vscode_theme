@@ -13,7 +13,10 @@
     "dark",
     "honolulu theme",
     "honolulu",
-    "honolulu midnight"
+    "honolulu midnight",
+    "purple",
+    "pink",
+    "orange"
   ],
   "scripts": {
     "init:project": "npm i && npx husky install",
@@ -51,9 +54,9 @@
         "path": "./themes/honolulu-vscode-theme.json"
       },
       {
-        "label": "Honolulu Theme Midnight",
+        "label": "Honolulu Theme Smooth",
         "uiTheme": "vs-dark",
-        "path": "./themes/honolulu-vscode-theme-midnight.json"
+        "path": "./themes/honolulu-vscode-theme-smooth.json"
       }
     ]
   },
