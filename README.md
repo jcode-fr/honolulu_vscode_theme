@@ -4,11 +4,11 @@ Sunset in honolulu theme for VS Code
 
 ### Honolulu Vscode Theme
 
-![Honolulu Vscode Theme](https://i.ibb.co/YkXWHH6/honolulu-theme-preview.png)
+![Honolulu Vscode Theme](https://i.ibb.co/MZsh3zb/honolulu-theme-midnight-preview.png)
 
-### Honolulu Vscode Theme Midnight
+### Honolulu Vscode Theme Smooth
 
-![Vscode Theme Midnight](https://i.ibb.co/MZsh3zb/honolulu-theme-midnight-preview.png)
+![Honolulu Vscode Theme Smooth](https://i.ibb.co/YkXWHH6/honolulu-theme-preview.png)
 
 ### Installation
 

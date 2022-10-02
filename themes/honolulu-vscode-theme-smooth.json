@@ -2,7 +2,7 @@
   "name": "Honolulu theme",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#100d16",
+    "activityBar.background": "#21202a",
     "activityBar.border": "#3e3a51c1",
     "activityBar.inactiveForeground": "#818b97",
     "activityBarBadge.background": "#FF7AB2",
@@ -23,35 +23,26 @@
     "diffEditor.insertedTextBackground": "#5DD8FF1e",
     "diffEditor.removedTextBackground": "#de090976",
 
-    "editor.background": "#100d16",
+    "editor.background": "#21202a",
     "editor.foreground": "#eeffff",
     "editor.lineHighlightBackground": "#302e3f91",
     "editor.lineHighlightBorder": "#de090900",
     "editor.selectionBackground": "#FF7AB236",
-
     "editorCodeLens.foreground": "#818b97",
-
     "editorCursor.background": "#ffffff",
     "editorCursor.foreground": "#FF7AB2",
-
     "editorGroup.border": "#3e3a51c1",
-
-    "editorGroupHeader.tabsBackground": "#100d16",
-
+    "editorGroupHeader.tabsBackground": "#21202a",
     "editorGutter.addedBackground": "red",
     "editorGutter.deletedBackground": "#de0909",
     "editorGutter.foreground": "#818b97",
     "editorGutter.modifiedBackground": "#FF7AB2",
-
     "editorHoverWidget.background": "#2b2a38",
     "editorHoverWidget.border": "#3e3a51c1",
-
     "editorIndentGuide.activeBackground": "#FF7AB274",
     "editorIndentGuide.background": "#3e3a51c1",
-
     "editorLineNumber.activeForeground": "#e2eaf5",
     "editorLineNumber.foreground": "#818b97",
-
     "editorWidget.background": "#21202b",
     "editorWidget.resizeBorder": "#FF7AB2",
 
@@ -67,53 +58,52 @@
     "gitDecoration.stageDeletedResourceForeground": "#d5bcfa",
     "gitDecoration.stageModifiedResourceForeground": "#ffc9aa",
     "gitDecoration.submoduleResourceForeground": "#8db9e2",
-    "gitDecoration.untrackedResourceForeground": "#e2eaf5",
+    "gitDecoration.untrackedResourceForeground": "#5DD8FF",
 
     "input.background": "#302e3f91",
 
-    "list.activeSelectionBackground": "#100d16",
-    "list.dropBackground": "#100d16",
-    "list.focusBackground": "#100d16",
+    "list.activeSelectionBackground": "#21202a",
+    "list.dropBackground": "#21202a",
+    "list.focusBackground": "#21202a",
     "list.highlightForeground": "#FF7AB2",
-    "list.hoverBackground": "#100d16",
-    "list.inactiveSelectionBackground": "#100d16",
+    "list.hoverBackground": "#21202a",
+    "list.inactiveSelectionBackground": "#21202a",
 
-    "listFilterWidget.background": "#100d16",
+    "listFilterWidget.background": "#21202a",
 
     "notifications.border": "#3e3a51c1",
 
     "panel.border": "#3e3a51c1",
 
     "peekView.border": "#FF7AB2",
-
-    "peekViewTitle.background": "#100d16",
+    "peekViewTitle.background": "#21202a",
 
     "scrollbar.shadow": "#17161d",
     "scrollbarSlider.activeBackground": "#3b394b",
-    "scrollbarSlider.background": "#21202b",
-    "scrollbarSlider.hoverBackground": "#3b394b",
+    "scrollbarSlider.background": "#3b394b",
+    "scrollbarSlider.hoverBackground": "#4b4960",
 
     "selection.background": "#FF7AB236",
 
-    "sideBar.background": "#100d16",
+    "sideBar.background": "#21202a",
     "sideBar.border": "#3e3a51c1",
 
-    "sideBarSectionHeader.background": "#100d16",
+    "sideBarSectionHeader.background": "#21202a",
     "sideBarSectionHeader.border": "#3e3a51c1",
 
-    "statusBar.background": "#100d16",
+    "statusBar.background": "#21202a",
     "statusBar.border": "#3e3a51c1",
-    "statusBar.debuggingBackground": "#ff7ab2",
-    "statusBar.noFolderBackground": "#ffa660",
+    "statusBar.debuggingBackground": "#21202a",
+    "statusBar.noFolderBackground": "#21202a",
 
     "statusBarItem.remoteBackground": "#ff7ab2",
 
-    "tab.activeBackground": "#100d16",
-    "tab.activeBorder": "#100d16",
+    "tab.activeBackground": "#21202a",
+    "tab.activeBorder": "#21202a",
     "tab.activeBorderTop": "#FF7AB2",
-    "tab.activeForeground": "#ffffff",
+    "tab.activeForeground": "#e2eaf5",
     "tab.border": "#3e3a51c1",
-    "tab.inactiveBackground": "#100d16",
+    "tab.inactiveBackground": "#21202a",
     "tab.inactiveBorder": "#3e3a51c1",
     "tab.inactiveForeground": "#ffc9aa",
     "tab.unfocusedActiveBorder": "#3e3a51c1",
@@ -124,7 +114,7 @@
     "textLink.activeForeground": "#f7adcc",
     "textLink.foreground": "#FF7AB2",
 
-    "titleBar.activeBackground": "#100d16",
+    "titleBar.activeBackground": "#21202a",
     "titleBar.activeForeground": "#e2eaf5",
     "titleBar.border": "#3e3a51c1",
     "titleBar.inactiveBackground": "#1d1c25",
