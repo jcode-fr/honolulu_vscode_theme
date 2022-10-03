@@ -21,4 +21,4 @@ Sunset in honolulu theme for VS Code
 
 #
 
-**_Crafted with ❤️ by Jean-Baptiste Thery & Sandra Saint-Julien | [www.flameapp.studio](www.flameapp.studio)_**
+**_Crafted with ❤️ by Jean-Baptiste Thery & Sandra Saint-Julien | [www.flameapp.studio](https://www.flameapp.studio/)_**
