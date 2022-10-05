@@ -16,7 +16,9 @@
     "honolulu midnight",
     "purple",
     "pink",
-    "orange"
+    "orange",
+    "xcode",
+    "xcode colors"
   ],
   "scripts": {
     "init:project": "npm i && npx husky install",
@@ -68,7 +70,7 @@
   },
   "icon": "honolulu-vscode-theme-logo.png",
   "galleryBanner": {
-    "color": "#1d1c25",
+    "color": "#25252a",
     "theme": "dark"
   },
   "engines": {
