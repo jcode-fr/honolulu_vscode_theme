@@ -56,9 +56,9 @@
         "path": "./themes/honolulu-vscode-theme.json"
       },
       {
-        "label": "Honolulu Theme Smooth",
+        "label": "Honolulu Theme Midnight",
         "uiTheme": "vs-dark",
-        "path": "./themes/honolulu-vscode-theme-smooth.json"
+        "path": "./themes/honolulu-vscode-theme-midnight.json"
       }
     ]
   },
