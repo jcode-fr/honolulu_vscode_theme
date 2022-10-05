@@ -2,7 +2,7 @@
   "name": "Honolulu theme",
   "type": "dark",
   "colors": {
-    "activityBar.background": "#1c1b23",
+    "activityBar.background": "#100d16",
     "activityBar.border": "#3e3a51c1",
     "activityBar.inactiveForeground": "#818b97",
     "activityBarBadge.background": "#FF7AB2",
@@ -11,8 +11,8 @@
     "badge.background": "#FF7AB2",
     "badge.foreground": "#ffffff",
 
-    "button.background": "#2b2a38",
-    "button.hoverBackground": "#363447",
+    "button.background": "#FF7AB2",
+    "button.hoverBackground": "#fa89b9",
     "button.secondaryBackground": "#2b2a38",
     "button.secondaryHoverBackground": "#363447",
 
@@ -23,23 +23,24 @@
     "diffEditor.insertedTextBackground": "#5DD8FF1e",
     "diffEditor.removedTextBackground": "#de090976",
 
-    "editor.background": "#1c1b23",
+    "editor.background": "#100d16",
     "editor.foreground": "#eeffff",
     "editor.lineHighlightBackground": "#302e3f91",
     "editor.lineHighlightBorder": "#de090900",
     "editor.selectionBackground": "#FF7AB236",
+
     "editorCodeLens.foreground": "#818b97",
     "editorCursor.background": "#ffffff",
     "editorCursor.foreground": "#FF7AB2",
     "editorGroup.border": "#3e3a51c1",
-    "editorGroupHeader.tabsBackground": "#1c1b23",
+    "editorGroupHeader.tabsBackground": "#100d16",
     "editorGutter.addedBackground": "red",
     "editorGutter.deletedBackground": "#de0909",
     "editorGutter.foreground": "#818b97",
     "editorGutter.modifiedBackground": "#FF7AB2",
     "editorHoverWidget.background": "#2b2a38",
     "editorHoverWidget.border": "#3e3a51c1",
-    "editorIndentGuide.activeBackground": "#FF7AB274",
+    "editorIndentGuide.activeBackground": "#FF7AB2",
     "editorIndentGuide.background": "#3e3a51c1",
     "editorLineNumber.activeForeground": "#e2eaf5",
     "editorLineNumber.foreground": "#818b97",
@@ -62,48 +63,49 @@
 
     "input.background": "#302e3f91",
 
-    "list.activeSelectionBackground": "#1c1b23",
-    "list.dropBackground": "#1c1b23",
-    "list.focusBackground": "#1c1b23",
+    "list.activeSelectionBackground": "#3e3a51c1",
+    "list.dropBackground": "#100d16",
+    "list.focusBackground": "#100d16",
     "list.highlightForeground": "#FF7AB2",
-    "list.hoverBackground": "#1c1b23",
-    "list.inactiveSelectionBackground": "#1c1b23",
+    "list.hoverBackground": "#100d16",
+    "list.inactiveSelectionBackground": "#3e3a51c1",
 
-    "listFilterWidget.background": "#1c1b23",
+    "listFilterWidget.background": "#100d16",
 
     "notifications.border": "#3e3a51c1",
 
     "panel.border": "#3e3a51c1",
 
     "peekView.border": "#FF7AB2",
-    "peekViewTitle.background": "#1c1b23",
+
+    "peekViewTitle.background": "#100d16",
 
     "scrollbar.shadow": "#17161d",
     "scrollbarSlider.activeBackground": "#3b394b",
-    "scrollbarSlider.background": "#3b394b",
-    "scrollbarSlider.hoverBackground": "#4b4960",
+    "scrollbarSlider.background": "#21202b",
+    "scrollbarSlider.hoverBackground": "#3b394b",
 
     "selection.background": "#FF7AB236",
 
-    "sideBar.background": "#1c1b23",
+    "sideBar.background": "#100d16",
     "sideBar.border": "#3e3a51c1",
 
-    "sideBarSectionHeader.background": "#1c1b23",
+    "sideBarSectionHeader.background": "#100d16",
     "sideBarSectionHeader.border": "#3e3a51c1",
 
-    "statusBar.background": "#1c1b23",
+    "statusBar.background": "#100d16",
     "statusBar.border": "#3e3a51c1",
-    "statusBar.debuggingBackground": "#1c1b23",
-    "statusBar.noFolderBackground": "#1c1b23",
+    "statusBar.debuggingBackground": "#100d16",
+    "statusBar.noFolderBackground": "#100d16",
 
     "statusBarItem.remoteBackground": "#ff7ab2",
 
-    "tab.activeBackground": "#1c1b23",
-    "tab.activeBorder": "#1c1b23",
+    "tab.activeBackground": "#100d16",
+    "tab.activeBorder": "#100d16",
     "tab.activeBorderTop": "#FF7AB2",
     "tab.activeForeground": "#e2eaf5",
     "tab.border": "#3e3a51c1",
-    "tab.inactiveBackground": "#1c1b23",
+    "tab.inactiveBackground": "#100d16",
     "tab.inactiveBorder": "#3e3a51c1",
     "tab.inactiveForeground": "#ffc9aa",
     "tab.unfocusedActiveBorder": "#3e3a51c1",
@@ -114,7 +116,7 @@
     "textLink.activeForeground": "#f7adcc",
     "textLink.foreground": "#FF7AB2",
 
-    "titleBar.activeBackground": "#1c1b23",
+    "titleBar.activeBackground": "#100d16",
     "titleBar.activeForeground": "#e2eaf5",
     "titleBar.border": "#3e3a51c1",
     "titleBar.inactiveBackground": "#1d1c25",
