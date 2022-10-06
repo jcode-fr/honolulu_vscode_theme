@@ -20,7 +20,7 @@
     "debugToolBar.border": "#3e3a51c1",
 
     "diffEditor.border": "#3e3a51c1",
-    "diffEditor.insertedTextBackground": "#5DD8FF1e",
+    "diffEditor.insertedTextBackground": "#93e9ff1e",
     "diffEditor.removedTextBackground": "#de090976",
 
     "editor.background": "#25252a",
@@ -59,7 +59,7 @@
     "gitDecoration.stageDeletedResourceForeground": "#d5bcfa",
     "gitDecoration.stageModifiedResourceForeground": "#ffc9aa",
     "gitDecoration.submoduleResourceForeground": "#8db9e2",
-    "gitDecoration.untrackedResourceForeground": "#5DD8FF",
+    "gitDecoration.untrackedResourceForeground": "#93e9ff",
 
     "input.background": "#302e3f91",
 
@@ -174,7 +174,7 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#5DD8FF"
+        "foreground": "#93e9ff"
       }
     },
     {
@@ -433,7 +433,7 @@
     {
       "scope": "meta.diff.range",
       "settings": {
-        "foreground": "#5DD8FF",
+        "foreground": "#93e9ff",
         "fontStyle": "bold"
       }
     },
