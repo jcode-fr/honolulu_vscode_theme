@@ -1,7 +1,8 @@
 on:
-  release:
+  workflow_run:
+    workflows: [Release]
     types:
-      - published
+      - completed
 
 name: Deploy Extension
 
