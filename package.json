@@ -65,7 +65,8 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "semantic-release": "^19.0.5"
   },
   "icon": "honolulu-vscode-theme-logo.png",
   "galleryBanner": {
