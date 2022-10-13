@@ -1,7 +1,7 @@
 {
   "name": "honolulu-vscode-theme",
   "displayName": "Honolulu Theme",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "private": true,
   "release": {
     "branches": [
@@ -66,6 +66,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@semantic-release/git": "^10.0.1",
     "husky": "^8.0.1",
     "semantic-release": "^19.0.5"
   },
