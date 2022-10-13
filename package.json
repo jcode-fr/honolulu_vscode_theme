@@ -1,7 +1,12 @@
 {
   "name": "honolulu-vscode-theme",
   "displayName": "Honolulu Theme",
-  "version": "1.2.2",
+  "version": "0.0.0",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "description": "Sunset in honolulu theme for VS Code",
   "categories": [
     "Themes"
@@ -54,11 +59,6 @@
         "label": "Honolulu Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/honolulu-vscode-theme.json"
-      },
-      {
-        "label": "Honolulu Theme Midnight",
-        "uiTheme": "vs-dark",
-        "path": "./themes/honolulu-vscode-theme-midnight.json"
       }
     ]
   },
@@ -70,7 +70,7 @@
   },
   "icon": "honolulu-vscode-theme-logo.png",
   "galleryBanner": {
-    "color": "#25252a",
+    "color": "#191919",
     "theme": "dark"
   },
   "engines": {
