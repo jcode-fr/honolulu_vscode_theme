@@ -13,7 +13,7 @@
 
     "button.background": "#a27ae3",
     "button.hoverBackground": "#d1b4fb",
-    "button.secondaryBackground": "#2b2a38",
+    "button.secondaryBackground": "#252525",
     "button.secondaryHoverBackground": "#363447",
 
     "debugToolBar.background": "#252525",
@@ -32,8 +32,8 @@
     "editorCursor.foreground": "#ffbae3",
     "editorGroup.border": "#252525",
     "editorGroupHeader.tabsBackground": "#191919",
-    "editorHoverWidget.background": "#2b2a38",
-    "editorHoverWidget.border": "#252525",
+    "editorHoverWidget.background": "#252525",
+    "editorHoverWidget.border": "#303030",
     "editorIndentGuide.activeBackground": "#ffbae3",
     "editorIndentGuide.background": "#303030",
     "editorLineNumber.activeForeground": "#808080",
@@ -63,7 +63,7 @@
     "peekView.border": "#fff",
     "peekViewTitle.background": "#191919",
 
-    "scrollbar.shadow": "#17161d",
+    "scrollbar.shadow": "#191919",
     "scrollbarSlider.activeBackground": "#303030",
     "scrollbarSlider.background": "#303030",
     "scrollbarSlider.hoverBackground": "#404040",
@@ -94,6 +94,8 @@
     "tab.unfocusedActiveBorder": "#252525",
     "tab.unfocusedActiveBorderTop": "#252525",
 
+    "editorSuggestWidget.selectedBackground": "#ffbae336",
+
     "terminal.border": "#252525",
 
     "textLink.activeForeground": "#d1b4fb",
@@ -107,7 +109,7 @@
 
     "tree.indentGuidesStroke": "#303030",
 
-    "widget.shadow": "#17161d"
+    "widget.shadow": "#191919"
   },
   "semanticHighlighting": true,
   "tokenColors": [
