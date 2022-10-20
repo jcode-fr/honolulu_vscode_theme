@@ -23,14 +23,14 @@
     "purple",
     "pink",
     "orange",
-    "xcode",
-    "xcode colors"
+    "jetbrains",
+    "fleet"
   ],
   "scripts": {
     "init:project": "npm i && npx husky install",
-    "build:extention": "vsce package",
-    "login:vsce": "vsce login flameappstudio",
-    "publish:extention": "vsce publish"
+    "build:theme": "tsc && node ./dist/src/index.js",
+    "lint:eslint": "npx eslint src --fix",
+    "lint:prettier": "npx prettier -w src"
   },
   "homepage": "https://marketplace.visualstudio.com/items?itemName=flameappstudio.honolulu-vscode-theme",
   "repository": {
@@ -66,9 +66,18 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^18.11.3",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.1",
-    "semantic-release": "^19.0.5"
+    "prettier": "2.7.1",
+    "semantic-release": "^19.0.5",
+    "typescript": "^4.8.4"
   },
   "icon": "honolulu-vscode-theme-logo.png",
   "galleryBanner": {
