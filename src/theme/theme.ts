@@ -1,13 +1,13 @@
-import { ThemeColors } from "../types"
-import { COLORS } from "./colors"
-import { CONFIG } from "./config"
+import { ThemeColors } from "../types";
+import { COLORS } from "./colors";
+import { CONFIG } from "./config";
 
 /* COMMONS
  *****************************************************************/
 const COMMONS = {
   focusBorder: COLORS.white,
   foreground: "#e2eaf5",
-}
+};
 
 /* ACTIVITY_BAR
  *****************************************************************/
@@ -15,38 +15,38 @@ const ACTIVITY_BAR = {
   "activityBar.background": COLORS.backgrounds,
   "activityBar.border": COLORS.surfaces,
   "activityBar.inactiveForeground": "#80878e",
-  "activityBarBadge.background": COLORS.entity_names,
+  "activityBarBadge.background": COLORS.tags,
   "activityBarBadge.foreground": COLORS.white,
-}
+};
 
 /* BADGE
  *****************************************************************/
 const BADGE = {
-  "badge.background": COLORS.entity_names,
+  "badge.background": COLORS.tags,
   "badge.foreground": COLORS.white,
-}
+};
 
 /* BUTTON
  *****************************************************************/
 const BUTTON = {
-  "button.background": COLORS.entity_names,
-  "button.hoverBackground": COLORS.variables,
-  "button.secondaryBackground": COLORS.surfaces,
-  "button.secondaryHoverBackground": "#363447",
-}
+  "button.background": COLORS.tags,
+  "button.hoverBackground": "#ffa587",
+  "button.secondaryBackground": COLORS.strings,
+  "button.secondaryHoverBackground": "#ffd5bf",
+};
 
 /* DEBUG_TOOLBAR
  *****************************************************************/
 const DEBUG_TOOLBAR = {
   "debugToolBar.background": COLORS.surfaces,
   "debugToolBar.border": COLORS.surfaces,
-}
+};
 
 /* DIFF_EDITOR
  *****************************************************************/
 const DIFF_EDITOR = {
   "diffEditor.border": COLORS.surfaces,
-}
+};
 
 /* EDITOR
  *****************************************************************/
@@ -69,13 +69,13 @@ const EDITOR = {
   "editorLineNumber.foreground": "#505050",
   "editorWidget.background": COLORS.surfaces,
   "editorWidget.resizeBorder": COLORS.white,
-}
+};
 
 /* INPUT
  *****************************************************************/
 const INPUT = {
   "input.background": "#30303091",
-}
+};
 
 /* INPUT
  *****************************************************************/
@@ -86,32 +86,32 @@ const LIST = {
   "list.highlightForeground": COLORS.white,
   "list.hoverBackground": COLORS.backgrounds,
   "list.inactiveSelectionBackground": COLORS.surfaces,
-}
+};
 
 /* LIST_FILTER_WIDGET
  *****************************************************************/
 const LIST_FILTER_WIDGET = {
   "listFilterWidget.background": COLORS.backgrounds,
-}
+};
 
 /* NOTIFICATIONS
  *****************************************************************/
 const NOTIFICATIONS = {
   "notifications.border": COLORS.surfaces,
-}
+};
 
 /* PANEL
  *****************************************************************/
 const PANEL = {
   "panel.border": COLORS.surfaces,
-}
+};
 
 /* PEEK_VIEW
  *****************************************************************/
 const PEEK_VIEW = {
   "peekView.border": COLORS.white,
   "peekViewTitle.background": COLORS.backgrounds,
-}
+};
 
 /* SCROLLBAR
  *****************************************************************/
@@ -120,27 +120,27 @@ const SCROLLBAR = {
   "scrollbarSlider.activeBackground": "#303030",
   "scrollbarSlider.background": "#303030",
   "scrollbarSlider.hoverBackground": "#404040",
-}
+};
 
 /* SELECTION
  *****************************************************************/
 const SELECTION = {
   "selection.background": "#f7a0d336",
-}
+};
 
 /* SIDE_BAR
  *****************************************************************/
 const SIDE_BAR = {
   "sideBar.background": COLORS.backgrounds,
   "sideBar.border": COLORS.surfaces,
-}
+};
 
 /* SIDE_BAR_SECTION_HEADER
  *****************************************************************/
 const SIDE_BAR_SECTION_HEADER = {
   "sideBarSectionHeader.background": COLORS.backgrounds,
   "sideBarSectionHeader.border": COLORS.surfaces,
-}
+};
 
 /* STATUS_BAR
  *****************************************************************/
@@ -149,13 +149,13 @@ const STATUS_BAR = {
   "statusBar.border": COLORS.surfaces,
   "statusBar.debuggingBackground": COLORS.backgrounds,
   "statusBar.noFolderBackground": COLORS.backgrounds,
-}
+};
 
 /* STATUS_BAR_ITEM
  *****************************************************************/
 const STATUS_BAR_ITEM = {
   "statusBarItem.remoteBackground": COLORS.entity_names,
-}
+};
 
 /* TAB
  *****************************************************************/
@@ -170,26 +170,26 @@ const TAB = {
   "tab.inactiveForeground": COLORS.strings,
   "tab.unfocusedActiveBorder": COLORS.surfaces,
   "tab.unfocusedActiveBorderTop": COLORS.surfaces,
-}
+};
 
 /* EDITOR_SUGGEST_WIDGET
  *****************************************************************/
 const EDITOR_SUGGEST_WIDGET = {
   "editorSuggestWidget.selectedBackground": "#f7a0d336",
-}
+};
 
 /* TERMINAL
  *****************************************************************/
 const TERMINAL = {
   "terminal.border": COLORS.surfaces,
-}
+};
 
 /* TEXT_LINK
  *****************************************************************/
 const TEXT_LINK = {
-  "textLink.activeForeground": COLORS.variables,
-  "textLink.foreground": COLORS.entity_names,
-}
+  "textLink.activeForeground": "#ffa587",
+  "textLink.foreground": COLORS.tags,
+};
 
 /* TITLE_BAR
  *****************************************************************/
@@ -199,19 +199,19 @@ const TITLE_BAR = {
   "titleBar.border": COLORS.surfaces,
   "titleBar.inactiveBackground": "#202020",
   "titleBar.inactiveForeground": "#80878e",
-}
+};
 
 /* THREE
  *****************************************************************/
 const THREE = {
   "tree.indentGuidesStroke": "#303030",
-}
+};
 
 /* WIDGET
  *****************************************************************/
 const WIDGET = {
   "widget.shadow": COLORS.backgrounds,
-}
+};
 
 /* TOKEN_COLORS
  *****************************************************************/
@@ -557,7 +557,7 @@ const TOKEN_COLORS = [
       fontStyle: "underline",
     },
   },
-]
+];
 
 /* FLAME_APP_STUDIO_THEME
  *****************************************************************/
@@ -594,4 +594,4 @@ export const FLAME_APP_STUDIO_THEME: ThemeColors = {
   },
   semanticHighlighting: CONFIG.semanticHighlighting,
   tokenColors: TOKEN_COLORS,
-}
+};
