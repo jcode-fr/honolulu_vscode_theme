@@ -3,6 +3,7 @@ import { Colors } from "../types/index";
 export const COLORS: Colors = {
   backgrounds: "#0F0F0F",
   surfaces: "#222222",
+  inactiveBackground: "#333333",
   functions: "#7bedbb",
   tags: "#ff9068",
   strings: "#ffc9aa",

@@ -1,12 +1,12 @@
-import { ThemeColors } from "../types";
+import { ThemeColors } from "./../types/index";
 import { COLORS } from "./colors";
 import { CONFIG } from "./config";
 
 /* COMMONS
  *****************************************************************/
 const COMMONS = {
-  focusBorder: COLORS.white,
-  foreground: "#e2eaf5",
+  focusBorder: COLORS.tags,
+  foreground: COLORS.white,
 };
 
 /* ACTIVITY_BAR
@@ -14,7 +14,7 @@ const COMMONS = {
 const ACTIVITY_BAR = {
   "activityBar.background": COLORS.backgrounds,
   "activityBar.border": COLORS.surfaces,
-  "activityBar.inactiveForeground": "#80878e",
+  "activityBar.inactiveForeground": COLORS.inactiveBackground,
   "activityBarBadge.background": COLORS.tags,
   "activityBarBadge.foreground": COLORS.white,
 };
@@ -62,9 +62,9 @@ const EDITOR = {
   "editorGroup.border": COLORS.surfaces,
   "editorGroupHeader.tabsBackground": COLORS.backgrounds,
   "editorHoverWidget.background": COLORS.surfaces,
-  "editorHoverWidget.border": "#303030",
+  "editorHoverWidget.border": COLORS.surfaces,
   "editorIndentGuide.activeBackground": COLORS.keywords,
-  "editorIndentGuide.background": "#303030",
+  "editorIndentGuide.background": COLORS.surfaces,
   "editorLineNumber.activeForeground": "#808080",
   "editorLineNumber.foreground": "#505050",
   "editorWidget.background": COLORS.surfaces,
@@ -80,12 +80,12 @@ const INPUT = {
 /* INPUT
  *****************************************************************/
 const LIST = {
-  "list.activeSelectionBackground": COLORS.surfaces,
+  "list.activeSelectionBackground": COLORS.backgrounds,
   "list.dropBackground": COLORS.backgrounds,
   "list.focusBackground": COLORS.backgrounds,
   "list.highlightForeground": COLORS.white,
   "list.hoverBackground": COLORS.backgrounds,
-  "list.inactiveSelectionBackground": COLORS.surfaces,
+  "list.inactiveSelectionBackground": COLORS.inactiveBackground,
 };
 
 /* LIST_FILTER_WIDGET
@@ -117,9 +117,9 @@ const PEEK_VIEW = {
  *****************************************************************/
 const SCROLLBAR = {
   "scrollbar.shadow": COLORS.backgrounds,
-  "scrollbarSlider.activeBackground": "#303030",
-  "scrollbarSlider.background": "#303030",
-  "scrollbarSlider.hoverBackground": "#404040",
+  "scrollbarSlider.activeBackground": COLORS.surfaces,
+  "scrollbarSlider.background": COLORS.surfaces,
+  "scrollbarSlider.hoverBackground": COLORS.inactiveBackground,
 };
 
 /* SELECTION
@@ -161,15 +161,10 @@ const STATUS_BAR_ITEM = {
  *****************************************************************/
 const TAB = {
   "tab.activeBackground": COLORS.backgrounds,
-  "tab.activeBorder": COLORS.backgrounds,
-  "tab.activeBorderTop": COLORS.white,
   "tab.activeForeground": COLORS.white,
   "tab.border": COLORS.surfaces,
-  "tab.inactiveBackground": COLORS.backgrounds,
-  "tab.inactiveBorder": COLORS.surfaces,
+  "tab.inactiveBackground": COLORS.surfaces,
   "tab.inactiveForeground": COLORS.strings,
-  "tab.unfocusedActiveBorder": COLORS.surfaces,
-  "tab.unfocusedActiveBorderTop": COLORS.surfaces,
 };
 
 /* EDITOR_SUGGEST_WIDGET
@@ -204,7 +199,7 @@ const TITLE_BAR = {
 /* THREE
  *****************************************************************/
 const THREE = {
-  "tree.indentGuidesStroke": "#303030",
+  "tree.indentGuidesStroke": COLORS.surfaces,
 };
 
 /* WIDGET
