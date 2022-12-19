@@ -2,8 +2,8 @@ import { Colors } from "../types/index";
 
 export const COLORS: Colors = {
   backgrounds: "#0F0F0F",
-  surfaces: "#222222",
-  inactiveBackground: "#333333",
+  surfaces: "#444444",
+  inactiveBackground: "#36363664",
   functions: "#7bedbb",
   tags: "#ff9068",
   strings: "#ffc9aa",

@@ -14,7 +14,8 @@ const COMMONS = {
 const ACTIVITY_BAR = {
   "activityBar.background": COLORS.backgrounds,
   "activityBar.border": COLORS.surfaces,
-  "activityBar.inactiveForeground": COLORS.inactiveBackground,
+  "activityBar.foreground": COLORS.white,
+  "activityBar.inactiveForeground": COLORS.surfaces,
   "activityBarBadge.background": COLORS.tags,
   "activityBarBadge.foreground": COLORS.white,
 };
@@ -53,7 +54,7 @@ const DIFF_EDITOR = {
 const EDITOR = {
   "editor.background": COLORS.backgrounds,
   "editor.foreground": COLORS.white,
-  "editor.lineHighlightBackground": "#30303091",
+  "editor.lineHighlightBackground": COLORS.inactiveBackground,
   "editor.lineHighlightBorder": "#de090900",
   "editor.selectionBackground": "#f7a0d336",
   "editorCodeLens.foreground": "#80878e",
@@ -65,8 +66,8 @@ const EDITOR = {
   "editorHoverWidget.border": COLORS.surfaces,
   "editorIndentGuide.activeBackground": COLORS.keywords,
   "editorIndentGuide.background": COLORS.surfaces,
-  "editorLineNumber.activeForeground": "#808080",
-  "editorLineNumber.foreground": "#505050",
+  "editorLineNumber.activeForeground": COLORS.keywords,
+  "editorLineNumber.foreground": COLORS.surfaces,
   "editorWidget.background": COLORS.surfaces,
   "editorWidget.resizeBorder": COLORS.white,
 };
@@ -161,10 +162,10 @@ const STATUS_BAR_ITEM = {
  *****************************************************************/
 const TAB = {
   "tab.activeBackground": COLORS.backgrounds,
-  "tab.activeForeground": COLORS.white,
+  "tab.activeForeground": COLORS.tags,
   "tab.border": COLORS.surfaces,
-  "tab.inactiveBackground": COLORS.surfaces,
-  "tab.inactiveForeground": COLORS.strings,
+  "tab.inactiveBackground": COLORS.inactiveBackground,
+  "tab.inactiveForeground": COLORS.white,
 };
 
 /* EDITOR_SUGGEST_WIDGET
