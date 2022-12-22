@@ -5,7 +5,7 @@ import { CONFIG } from "./config";
 /* COMMONS
  *****************************************************************/
 const COMMONS = {
-  focusBorder: COLORS.tags,
+  focusBorder: COLORS.entity_names,
   foreground: COLORS.white,
 };
 
@@ -16,24 +16,24 @@ const ACTIVITY_BAR = {
   "activityBar.border": COLORS.surfaces,
   "activityBar.foreground": COLORS.white,
   "activityBar.inactiveForeground": COLORS.surfaces,
-  "activityBarBadge.background": COLORS.tags,
+  "activityBarBadge.background": COLORS.entity_names,
   "activityBarBadge.foreground": COLORS.white,
 };
 
 /* BADGE
  *****************************************************************/
 const BADGE = {
-  "badge.background": COLORS.tags,
+  "badge.background": COLORS.entity_names,
   "badge.foreground": COLORS.white,
 };
 
 /* BUTTON
  *****************************************************************/
 const BUTTON = {
-  "button.background": COLORS.tags,
-  "button.hoverBackground": "#ffa587",
-  "button.secondaryBackground": COLORS.strings,
-  "button.secondaryHoverBackground": "#ffd5bf",
+  "button.background": COLORS.entity_names,
+  "button.hoverBackground": COLORS.entity_names,
+  "button.secondaryBackground": COLORS.inactiveBackground,
+  "button.secondaryHoverBackground": COLORS.surfaces,
 };
 
 /* DEBUG_TOOLBAR
@@ -118,9 +118,9 @@ const PEEK_VIEW = {
  *****************************************************************/
 const SCROLLBAR = {
   "scrollbar.shadow": COLORS.backgrounds,
-  "scrollbarSlider.activeBackground": COLORS.surfaces,
+  "scrollbarSlider.activeBackground": "#555555",
   "scrollbarSlider.background": COLORS.surfaces,
-  "scrollbarSlider.hoverBackground": COLORS.inactiveBackground,
+  "scrollbarSlider.hoverBackground": "#666666",
 };
 
 /* SELECTION
@@ -162,7 +162,7 @@ const STATUS_BAR_ITEM = {
  *****************************************************************/
 const TAB = {
   "tab.activeBackground": COLORS.backgrounds,
-  "tab.activeForeground": COLORS.tags,
+  "tab.activeForeground": COLORS.entity_names,
   "tab.border": COLORS.surfaces,
   "tab.inactiveBackground": COLORS.inactiveBackground,
   "tab.inactiveForeground": COLORS.white,
@@ -183,8 +183,8 @@ const TERMINAL = {
 /* TEXT_LINK
  *****************************************************************/
 const TEXT_LINK = {
-  "textLink.activeForeground": "#ffa587",
-  "textLink.foreground": COLORS.tags,
+  "textLink.activeForeground": COLORS.variables,
+  "textLink.foreground": COLORS.entity_names,
 };
 
 /* TITLE_BAR
